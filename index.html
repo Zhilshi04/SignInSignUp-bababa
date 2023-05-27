@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Register and Login</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header-web"></header>
+    <div class="container">
+        <button class="login-but" id="but-chose">Login</button>
+        <button class="register-but" id="but-chose">Register</button>
+        <div class="login-page" style="display: none; ">
+            <img src="./image/delete.png" alt="" class="close-window">
+            <div class="content-login"style="display: none;" id="content">
+                <h1 style="font-size: 40px;">Login</h1>
+                <input type="email" class="email-input" id="input-login" placeholder="Email">
+                <!-- <img src="./view.png" class="view-password" alt=""> -->
+                <input type="password" class="password-input" id="input-login" placeholder="Password">
+                <div class="showpassword">
+                    <input type="checkbox" name="" id="" class="show-password" style="margin: 0px 5px 0px 0px; width: 20px; height: 20px;">
+                    <h1 style="font-size: 20px;">show password</h1>
+                </div>
+                <button class="sign-in-but" id="sign-in-up-but">Sign In</button>
+            </div>
+            <div class="content-register" style="display: none;" id="content">
+                <h1 style="font-size: 40px;">Register</h1>
+                <input type="text" class="username-input" id="input-login" placeholder="Username">
+                <input type="email" class="email-input" id="input-login" placeholder="Email">
+                <!-- <img src="./view.png" class="view-password" alt=""> -->
+                <input type="password" class="password-input" id="input-login" placeholder="Password">
+                <div class="showpassword">
+                    <input type="checkbox" name="" id="" class="show-password" style="margin: 0px 5px 0px 0px; width: 20px; height: 20px;">
+                    <h1 style="font-size: 20px;">show password</h1>
+                </div>
+                <button class="sign-up-but" id="sign-in-up-but">Sign Up</button>
+            </div>
+        </div>
+        <div class="message">
+            <img class="image-message" src="" alt="">
+            <h1 style="margin: 0px 20px 0px 20px;" class="text-message"></h1>
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+</html>
